@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(54deg, #00c3f4 0%, #e504e6 100%);
+}
+
+.loginform {
+    width: 350px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    margin-top: 15px;
+    margin-left: 25px;
+    border-radius: 7px;
+}
+
+h2 {
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+h2:hover {
+    color: yellow;
+    margin-left: 30px;
+}
+
+h4 {
+    margin-top: 17px;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+p {
+    font-family: sans-serif;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+button {
+
+    margin-top: 50px;
+    font-size: 25px;
+    margin-left: 20px;
+    background-color: rgb(212, 212, 14);
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+
+}
+
+button>i {
+    font-size: 20px;
+    padding-right: 11px;
+}
+
+.box1 {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin-left: 290px;
+    margin-top: -45px;
+    border-radius: 50%;
+    animation: myanime 2s forwards infinite;
+}
+
+.box1:hover {
+    animation: myanime 4s forwards infinite;
+
+    color: rgb(94, 207, 94);
+}
+
+.box1>i {
+    margin-left: 13px;
+    margin-top: 14px;
+    color: #fff;
+    font-size: 18px;
+}
+
+@keyframes myanime {
+    0% {
+        transform: scale(1);
+    }
+
+    33% {
+        transform: scale(1.5);
+    }
+}
